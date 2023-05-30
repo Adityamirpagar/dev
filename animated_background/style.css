@@ -1,0 +1,39 @@
+body{
+
+    margin: 0;
+    
+    color: #82a5ca;
+    text-align: center;
+
+    font-family: 'Goldman', cursive;
+}
+
+#hero{
+    background-image: url("images/aurora.gif");
+    background-size: cover;
+
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+#ISRO-logo{
+    width: 80px;
+}
+
+.btn{
+    padding: 5px 10px;
+    cursor: pointer;
+
+    border:none;
+
+    font-family: inherit;
+}
+
+#title{
+    text-shadow: -4px 3px 2px black;
+}
+
+.underline{
+    border-bottom: 4px solid white;
+}

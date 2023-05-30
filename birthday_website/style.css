@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+
+    background:linear-gradient(#d24949, #cb69e6);
+
+    color: #361471;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mario-img{
+    width: 150px;
+    border: 5px solid #6d0d87;
+    border-radius: 100px;
+}
+
+#mario-age{
+    border: 2px solid #6d0d87;
+    border-radius: 10px;
+
+    background-color: #d928dc;
+    padding: 5px 15px;
+
+    margin-bottom: 0;
+}
+
+#mario-birth-date{
+    border: 2px solid #6d0d87;
+    border-radius: 10px;
+
+    background-color: #d928dc;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.kingdom-title{
+    margin-bottom: 10px;
+}
+
+.kingdom-hint{
+    margin-top: 0px;
+}
+
+
+.flag-mario{
+    width: 400px;
+    height: 400px;
+
+    background-image: url("images/Mushroom_Kingdom.jpg");
+    background-size: cover;
+
+    border: 5px solid #6d0d87;
+    border-radius: 10px;
+
+    margin: 20px auto;
+}
+
+#flag-mario-journey:hover{
+    background-image: url("images/journey-mario.webp");
+}
+
+#flag-mario-best:hover{
+    background-image: url("images/best.webp");
+    background-size: cover;
+}
+
+#flag-mario-party:hover{
+    background-image: url("images/party-mario.webp");
+}
+
+#flag-mario-home:hover{
+    background-image: url("images/flag-mario.gif");
+}
+
+#footer{
+    font-style: italic;
+    font-weight: 800;
+
+    width: 500px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    margin: 30px auto 20px auto;
+}

@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+
+    text-align: center;
+    
+    font-family: 'Goldman', cursive;
+    font-weight: 300;
+
+    color: #422b19 ;
+
+}
+
+.hero{
+    background-image: url(image/starwars.jpg);
+    background-size: cover;
+
+    padding-bottom: 50px;
+}
+
+
+#logo{
+    width: 80px;
+}
+
+
+#underline{
+    border-bottom:2px solid #ffffff;
+
+}
+
+#title{
+    text-shadow: -2px 2px 0px gold;
+}
+
+.btn{
+    font-family: inherit;
+    color: inherit;
+
+    padding: 5px 10px;
+
+    border: 0;
+
+    background-color: #c9ad7a;
+
+    cursor: pointer;
+
+
+}
+
+#term_condition{
+    padding: 20px;
+
+}

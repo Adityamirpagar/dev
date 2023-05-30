@@ -1,0 +1,145 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* body basics color, padding and margins */
+body{
+    margin: 0px auto;
+
+    width: 600px;
+
+    text-align: center;
+
+    border:5px solid #bc9951;
+
+    border-radius: 10px;
+
+    padding: 5px;
+    
+}
+
+/* start head/hero section of the file */
+
+.head{
+
+    color: whitesmoke;
+
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+
+    padding:80px 100px;
+
+    border: none;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.head-title{
+    display: inline-block;
+
+    border-radius: 5px;
+
+    padding: 3px 5px;
+    
+    background-color: #457B9D;
+
+    margin-bottom: 0px;
+
+}
+
+.head-description{
+    display: inline-block;
+
+    border-radius: 5px;
+
+    padding: 3px 5px;
+    
+    background-color: #1D3557;
+
+    margin-top: 10px;
+
+}
+/* end of head/hero section of the file */
+
+/* start main section */
+.main{
+    margin-top: 0px;
+    background:linear-gradient(#8bea66, #9cb28a ) ;
+
+    margin-bottom: 20px;
+}
+
+.main-title{
+    padding: 10px;
+    margin: 0;
+}
+
+
+.image-info-container{
+    width: 600px;
+
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.image-info-container img{
+    width:100px;
+
+    border: none;
+    border-radius: 60pc;
+}
+
+.info {
+    margin-top: 0px;
+    padding: 0px 25px;
+}
+
+/* end main section */
+
+
+/* start guide section */
+
+.guide-section{
+
+    width: 340px;
+    height: 170px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #A8DADC;
+
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557;
+    
+}
+
+.guide-image{
+    width: 200px;
+    height: 170px;
+}
+
+.guide-info h3{
+    margin:15px 15px;
+}
+
+.guide-info p{
+    margin:15px 15px;
+}
+
+/* end guide section */

@@ -1,0 +1,28 @@
+
+.blue-border{
+    border: 1px dotted blue;
+}
+
+.card{
+    width: 350px;
+    
+    display: flex;
+    
+    margin-right:auto;
+    margin-left: auto;
+
+    padding: 20px;
+
+    justify-content: space-around;
+    text-align: center;
+
+    background: #ddebf8;
+    color: #2b2839;
+
+    border-bottom: 5px solid #d8cefe;
+
+}
+
+.avatar-img{
+    width: 150px;
+}
