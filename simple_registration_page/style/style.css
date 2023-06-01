@@ -6,9 +6,7 @@ body {
     color: white;
 }
 
-
 .left {
-
     /* border: 3px solid red; */
     position: absolute;
     top: 5px;
@@ -24,7 +22,6 @@ body {
     padding: 3px 3px;
     margin: 0px;
 }
-
 
 .mid {
     /* border: 3px solid white; */
@@ -51,12 +48,10 @@ body {
     color: #fbf9f9;
 }
 
-.mid li a:hover,
-a.active {
+.mid li a:hover, a.active {
     font-size: 17px;
     text-decoration: underline;
 }
-
 
 .right {
     /* border: 3px solid yellow; */
@@ -79,7 +74,6 @@ a.active {
 .btn:hover {
     background-color: #e19f24;
 }
-
 
 .container {
     border: 5px solid white;
@@ -115,9 +109,7 @@ a.active {
     font-weight: bold;
 }
 
-.form-group input[type='text'],
-input[type='number'],
-select {
+.form-group input[type='text'], input[type='number'], select {
     /* border:3px solid blue; */
     border-radius: 10px;
 
@@ -126,8 +118,6 @@ select {
     padding: 5px 15px;
 
     background-color: #e3a936ad;
-
-
 }
 
 .form-toc {
@@ -137,11 +127,8 @@ select {
     padding: 2px 25px;
 }
 
-
-
 .form-btn {
     text-align: center;
-
 }
 
 .form-btn input[type='reset'],
