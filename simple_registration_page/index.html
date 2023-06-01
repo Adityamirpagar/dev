@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Travel</title>
+</head>
+
+<body>
+
+    <header class="head">
+        <div class="left">
+            <img src="image/dollar.png" alt="dollar image">
+            <div>
+                <p>Money Mind</p>
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Term of Use</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <form class="form-group" action="action.php">
+
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" placeholder="Enter your First name..." required>
+            </div>
+
+
+            <div>
+               <label for="lname"> Last Name:</label>
+                <input type="text" placeholder="Enter your Last name..." required>
+            </div>
+
+
+            <div>
+                <label for="gender">Gender:</label>
+
+                <select for="gender" name="gender" required>
+                    <option value="none">none</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+
+            <div>
+                <label for="ph_num">Phone No.:</label>
+                <input type="number" placeholder="Enter your Phone number..." required>
+
+            </div>
+
+            <div>
+                <label for="location">Location:</label>
+                <input type="text" placeholder="Enter your Locality..." required>
+            </div>
+
+            <section class="form-toc">
+                <input type="checkbox" name="toc" required>
+                <label for="toc"> Accept terms and conditions</label>
+            </section>
+
+            <section class="form-btn">
+                <input class="btn" type="submit" value="submit">
+                <input class="btn" type="reset" value="reset">
+            </section>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
