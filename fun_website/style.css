@@ -1,6 +1,14 @@
 
 body{
-    margin: 0;
+
+    margin-left: 150px;
+    margin-right: 150px;
+
+    padding: 10px;
+
+    border: 5px solid #e7c641;
+    border-radius: 10px;
+
 
     text-align: center;
     
@@ -13,7 +21,13 @@ body{
 
 .hero{
     background-image: url(image/starwars.jpg);
-    background-size: cover;
+
+    border: 3px solid #e7c641;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-size: 100% 100%;
 
     padding-bottom: 50px;
 }
@@ -25,7 +39,7 @@ body{
 
 
 #underline{
-    border-bottom:2px solid #ffffff;
+    border-bottom:3px solid gold;
 
 }
 
@@ -40,15 +54,19 @@ body{
     padding: 5px 10px;
 
     border: 0;
+    border-radius: 10px;
 
     background-color: #c9ad7a;
 
     cursor: pointer;
-
-
 }
 
 #term_condition{
-    padding: 20px;
 
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    padding: 10px;
+
+    background-color: #e8c640;
 }
