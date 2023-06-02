@@ -40,43 +40,50 @@
         <form class="form-group" action="action.php">
 
             <div>
-                <label for="fname">First Name:</label>
-                <input type="text" placeholder="Enter your First name..." required>
+                <label for="fname">First Name:
+                    <input id="fname" type="text" placeholder="Enter your First name..." required>
+                </label>
             </div>
 
 
             <div>
-               <label for="lname"> Last Name:</label>
-                <input type="text" placeholder="Enter your Last name..." required>
+                <label for="lname"> Last Name:
+                    <input id="lname" type="text" placeholder="Enter your Last name..." required>
+                </label>
             </div>
 
 
             <div>
-                <label for="gender">Gender:</label>
-
-                <select for="gender" name="gender" required>
-                    <option value="none">none</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
+                <label for="gender">Gender:
+                    <select required id="gender">
+                        <option></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </label>
             </div>
 
 
             <div>
-                <label for="ph_num">Phone No.:</label>
-                <input type="number" placeholder="Enter your Phone number..." required>
-
+                <label for="ph_num">Phone No.:
+                    <input id="ph_num" type="number" placeholder="Enter your Phone number..." required>
+                </label>
             </div>
 
+
             <div>
-                <label for="location">Location:</label>
-                <input type="text" placeholder="Enter your Locality..." required>
+                <label for="location" name="location">Location:
+                    <input id="location" type="text" placeholder="Enter your Locality..." required>
+                </label>
             </div>
 
             <section class="form-toc">
-                <input type="checkbox" name="toc" required>
-                <label for="toc"> Accept terms and conditions</label>
+                <label for="toc">
+                    <input type="checkbox" name="toc" required>
+                    Accept terms and conditions
+                </label>
             </section>
+
 
             <section class="form-btn">
                 <input class="btn" type="submit" value="submit">
